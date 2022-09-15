@@ -53,7 +53,10 @@ export function Todolist(props: PropsType) {
 
     return <div>
         <h3>{props.title}
-            <button onClick={onClickHandler}>X</button>
+            <div>
+                <button onClick={onClickHandler}>X</button>
+            </div>
+
         </h3>
         <div>
             <input value={title}
